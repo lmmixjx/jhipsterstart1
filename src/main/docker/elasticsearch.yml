@@ -1,0 +1,9 @@
+version: '2'
+services:
+    jhipsterstart1-elasticsearch:
+        image: elasticsearch:2.4.6
+        # volumes:
+        #     - ~/volumes/jhipster/jhipsterstart1/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300
